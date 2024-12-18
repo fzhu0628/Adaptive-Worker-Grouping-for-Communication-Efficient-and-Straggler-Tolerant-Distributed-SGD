@@ -12,7 +12,7 @@
 
 
 
-- For more information, we redirect the reader to our full paper: https://ieeexplore.ieee.org/abstract/document/9834752.
+- For more information, we redirect the reader to our full paper: https://ieeexplore.ieee.org/abstract/document/9834752 or https://arxiv.org/abs/2201.04301.
 ## Results
 - Numerical examples: 
 
