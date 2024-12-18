@@ -10,6 +10,8 @@
 
 - For more information, we redirect the reader to our full paper: https://ieeexplore.ieee.org/abstract/document/9834752.
 ## Codes
-
+- In the file linear_regression_ps.py, we consider the *linear regression* model with **MNIST** dataset and *quadratic error loss* function.
+- We compared our G-CADA algorithm with state-of-the-art algorithms such as distributed SGD, CADA, and distributed Adam.
+- Results show that our algorithm achieves superiority over the benchmarks in terms of both time and communication efficiencies.
 ## Results
 - Numerical examples: [figf.pdf](https://github.com/user-attachments/files/18185712/figf.pdf).
