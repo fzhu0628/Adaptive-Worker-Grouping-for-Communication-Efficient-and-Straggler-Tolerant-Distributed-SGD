@@ -14,4 +14,4 @@
 - We compared our G-CADA algorithm with state-of-the-art algorithms such as distributed SGD, CADA, and distributed Adam.
 - Results show that our algorithm achieves superiority over the benchmarks in terms of both time and communication efficiencies.
 ## Results
-- Numerical examples: [figf.pdf](https://github.com/user-attachments/files/18185712/figf.pdf).
+- Numerical examples: [Results](https://github.com/user-attachments/files/18185712/figf.pdf).
