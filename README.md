@@ -4,14 +4,13 @@
 
 - This repository showcases my first published paper titled *Adaptive Worker Grouping for Communication-Efficient and Straggler-Tolerant Distributed SGD*.
 - The paper was presented at the **IEEE International Symposium on Information Theory (ISIT)** in 2022.
+- **About the paper**
 
-### About the Paper
-
-- We propose a novel algorithm, ***G-CADA***, designed to enhance both time and communication efficiencies in distributed learning systems.
-- Building upon the widely recognized CADA algorithm, which aggregates gradients from workers lazily to improve communication efficiency, G-CADA introduces adaptive worker grouping. Specifically:
-  - Workers are partitioned into groups dynamically at each iteration, and each group is assigned the same dataset shard.
-  - By utilizing additional storage at the workers, the server interacts with only the fastest worker in each group, significantly improving robustness against stragglers.
-- Numerical simulations demonstrate substantial gains in both time and communication efficiency.
+  - We propose a novel algorithm, ***G-CADA***, designed to enhance both time and communication efficiencies in distributed learning systems.
+  - Building upon the widely recognized CADA algorithm, which aggregates gradients from workers lazily to improve communication efficiency, G-CADA introduces adaptive worker grouping. Specifically:
+    - Workers are partitioned into groups dynamically at each iteration, and each group is assigned the same dataset shard.
+    - By utilizing additional storage at the workers, the server interacts with only the fastest worker in each group, significantly improving robustness against stragglers.
+  - Numerical simulations demonstrate substantial gains in both time and communication efficiency.
 
 ## Key Concepts of G-CADA
 
