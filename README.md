@@ -22,7 +22,7 @@
 
 - **Age parameter**:
 
-  - Each group maintains a parameter, \$τ\_g^k\$, representing the “age” (i.e., the number of rounds the group has not communicated with the server) at iteration \$k\$.
+  - The server maintains a parameter, \$τ\_g^k\$ for each group, representing the “age” (i.e., the number of rounds the group has not communicated with the server) at iteration \$k\$.
 
 - **Group selection**:
 
