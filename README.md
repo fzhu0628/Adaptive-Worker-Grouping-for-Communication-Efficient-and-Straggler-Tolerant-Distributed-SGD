@@ -15,22 +15,22 @@
 
 ## Key Concepts of G-CADA
 
-- **Group Formation**:
+- **Group formation**:
 
   - A total of \$M\$ workers are divided into \$G\$ groups, with each group containing an equal number of workers.
   - The dataset is split into \$G\$ shards, and all workers within a group access the same shard.
 
-- **Age Parameter**:
+- **Age parameter**:
 
   - Each group maintains a parameter, \$τ\_g^k\$, representing the “age” (i.e., the number of rounds the group has not communicated with the server) at iteration \$k\$.
 
-- **Group Selection**:
+- **Group selection**:
 
   - At each iteration \$k\$, groups are selected based on a predefined condition shown below. If the condition is violated, indicating that the group’s information has changed significantly, the group communicates with the server to update its parameters.
 
      ![image](https://github.com/user-attachments/assets/c431e41b-0594-4fce-ae44-6f7a25cac91d)
   
-- **Age Update**:
+- **Age update**:
 
   - Groups that communicate with the server reset their age parameter.
 
@@ -51,7 +51,7 @@ The pseudocode below provides a step-by-step representation of the G-CADA algori
 
 ## Results
 
-- **Numerical Examples**:
+- **Numerical examples**:
 
 <img src="https://github.com/user-attachments/assets/1b72a073-6155-404c-9f27-0ba9f18bd2f2" width="40%" />
 
@@ -60,7 +60,7 @@ The pseudocode below provides a step-by-step representation of the G-CADA algori
 ## Code Description
 
 - The implementation in `linear_regression_ps.py` simulates a *linear regression* model using the **MNIST** dataset and a *quadratic error loss* function.
-- **Benchmark Comparisons**:
+- **Benchmark comparisons**:
   - G-CADA is compared against state-of-the-art algorithms, including distributed SGD, CADA, and distributed Adam.
   - Results consistently show that G-CADA outperforms these methods in both time and communication efficiencies.
 
