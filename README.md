@@ -46,7 +46,6 @@ The pseudocode below provides a step-by-step representation of the G-CADA algori
 ![image](https://github.com/user-attachments/assets/4cc7b57f-fa98-486e-81e6-666b4f5d38b0)
 
 
-- For more detailed information, please refer to our full paper: [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/9834752) or [arXiv](https://arxiv.org/abs/2201.04301).
 
 ## Results
 
@@ -56,6 +55,7 @@ The pseudocode below provides a step-by-step representation of the G-CADA algori
 
 * G-CADA demonstrates clear advantages over benchmark algorithms in terms of time efficiency, communication cost, and computational cost.
 
+For more detailed information, please refer to our full paper: [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/9834752) or [arXiv](https://arxiv.org/abs/2201.04301).
 ## Code Description
 
 - The implementation in `linear_regression_ps.py` simulates a *linear regression* model using the **MNIST** dataset and a *quadratic error loss* function.
